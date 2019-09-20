@@ -11,8 +11,13 @@ select q.quest_idx, q.quest_name from toti_cate c join toti_question q
 on c.cate_idx = q.cate_idx
 where c.cate_idx=1 or c.cate_idx=4;
 
--- 분야번호에 맞는 질문의 항목번호, 항목
-select q.quest_idx, item_idx, item_cont from toti_cate c join toti_question q join toti_item i
-on c.cate_idx = q.cate_idx and q.quest_idx = i.quest_idx
-where c.cate_idx=1 or c.cate_idx=4;
+-- 질문번호에 맞는 질문의 항목번호, 항목
+select item_idx, item_cont from toti_question join toti_item
+using(quest_idx)
+where quest_idx=1;
 
+select * from toti_question;
+
+drop table toti_mentee_service;
+
+select * from toti_answer;

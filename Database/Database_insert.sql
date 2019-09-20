@@ -9,7 +9,7 @@ insert into toti_member (m_id,m_pw,m_name,m_email,m_gender,m_code) values ('dahe
 insert into toti_member (m_id,m_pw,m_name,m_email,m_gender,m_code) values ('hyewon','1111','혜원','hyewon@naver.com','f','123456789qwer');
 insert into toti_member (m_id,m_pw,m_name,m_email,m_gender,m_code) values ('jooeun','2222','주은','jooeun@gmail.com','f','123456789fggh');
 insert into toti_member (m_id,m_pw,m_name,m_email,m_gender,m_code) values ('minjong','3333','민종','minjong@daum.net','m','123456789plo');
-insert into toti_member (m_id,m_pw,m_name,m_email,m_gender,m_code) values ('dongjun','4444','똥준','dongjun@nate.net','m','123456789tgb');
+insert into toti_member (m_id,m_pw,m_name,m_email,m_gender,m_code) values ('ddongjun','4444','똥준','dongjun@nate.net','m','123456789tgb');
 
 select * from toti_member;
 
@@ -54,16 +54,28 @@ insert into toti_item (quest_idx, item_cont) values (4, '10대');
 insert into toti_item (quest_idx, item_cont) values (4, '20대');
 insert into toti_item (quest_idx, item_cont) values (4, '30대');
 insert into toti_item (quest_idx, item_cont) values (4, '40대이상');
+insert into toti_item (quest_idx, item_cont) values (3, '재밌을거같음');
+insert into toti_item (quest_idx, item_cont) values (3, '취미');
+insert into toti_item (quest_idx, item_cont) values (3, '그냥');
+insert into toti_item (quest_idx, item_cont) values (3, '기타');
+insert into toti_item (quest_idx, item_cont) values (2, '몸치탈출');
+insert into toti_item (quest_idx, item_cont) values (2, '취미');
+insert into toti_item (quest_idx, item_cont) values (2, '재미');
+insert into toti_item (quest_idx, item_cont) values (2, '기타');
+insert into toti_item (quest_idx, item_cont) values (5, '여자');
+insert into toti_item (quest_idx, item_cont) values (5, '남자');
+insert into toti_item (quest_idx, item_cont) values (5, '기타');
 
-select * from toti_item;
 
--- 요청서 테이블
+select * from toti_mentee_service;
+
+-- 요청서 테이블(회원번호, 분야번호)
 insert into toti_request (m_idx, cate_idx) values (1, 1);
 insert into toti_request (m_idx, cate_idx) values (1, 2);
 
 select * from toti_request;
 
--- 답변 테이블
+-- 답변 테이블(요청서번호, 질문번호, 답변내용)
 insert into toti_answer (request_idx, quest_idx, answer_cont) values (2, 2,'몸치탈출');
 insert into toti_answer (request_idx, quest_idx, answer_cont) values (2, 4,'20대');
 insert into toti_answer (request_idx, quest_idx, answer_cont) values (2, 5,'여자');
