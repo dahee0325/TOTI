@@ -39,4 +39,7 @@
 ## 프로젝트 클라이언트 URL
 * [LINK](https://www.yal-toti.tk/toti/main)
 
+## 원본 깃허브
+* [LINK](https://github.com/son9zuen/TOTI/tree/master)
+
 
