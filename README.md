@@ -36,6 +36,9 @@
 * 프로젝트 주요기능
 * [LINK](https://docs.google.com/presentation/d/1vzPBbfdqb5QKuAv3sR2_5r6r8FW21YFS0b4LBPWDGWU/edit?usp=sharing)
 
+## 프로젝트 계획안
+* [LINK](https://docs.google.com/spreadsheets/d/1LCHxipoDvvYanOinIrJ_5n3GkAnXZzwZGzUZXFegZxU/edit?ts=5d6e0ff3#gid=318062334)
+
 ## 프로젝트 클라이언트 URL
 * [LINK](https://www.yal-toti.tk/toti/main)
 
