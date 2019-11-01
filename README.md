@@ -21,7 +21,7 @@
 * `MySQL`, `MyBatis` , `AWS RDS`
 * `ajax` 비동기통신
 * `Spring Framework`
-* 서버 클라이언트 통신을 위한 `RESTFull` 인터페이스 구현
+* 서버 클라이언트 통신을 위한 `RESTFul` 인터페이스 구현
 * `Tomcat`, `Node.js`, `Socket.io`, `AWS EC2`
 * `FTP 업로드` : `FileZila` 사용하여 프로젝트 war파일을 네트워크를 통해 서버호스팅에 배포
 * `Putty`
